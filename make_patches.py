@@ -69,7 +69,7 @@ def main(args):
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--image_path', type=str, default='.exp/N-002_bw.jpg', help='Input image path')
+    parser.add_argument('--image_path', type=str, default='example/N-002_bw.jpg', help='Input image path')
 
     return parser.parse_args()
 
